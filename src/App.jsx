@@ -26,6 +26,7 @@ function App() {
   return (
     <div>
       <Navbar />
+    {/** this is a sample comment to test github desktop */}
       {image ? (
         <NewPost image={image} />
       ) : (
